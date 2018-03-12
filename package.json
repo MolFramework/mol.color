@@ -32,6 +32,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
+    "m.grid": "git+https://github.com/flkt-crnpio/m.grid.git",
     "m.normalize": "git+https://github.com/flkt-crnpio/m.normalize.git"
   }
 }
