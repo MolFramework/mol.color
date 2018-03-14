@@ -1,0 +1,28 @@
+// button color
+
+@each $name, $color, $color-hover, $font , $font-hover in $m-btn-colors {
+    .btn-#{$name} {
+        background: $color;
+        border-color: $color;
+        color: $font;
+        &:hover,
+        &:focus {
+            background: $color-hover;
+            border-color: $color-hover;
+            color: $font-hover;
+        }
+    }
+    .btn-#{$name}-line {
+        background: transparent;
+        box-shadow: none;
+        border-color: $color;
+        color: $color;
+        &:hover,
+        &:focus {
+            background: $color-hover;
+            border-color: $color-hover;
+            box-shadow: none;
+            color: $font-hover;
+        }
+    }
+}

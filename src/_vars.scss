@@ -1,0 +1,26 @@
+// colors
+// m.nomralize colors
+$m-background:  #fff;
+$m-color:       #333;
+
+// m.mol colors
+$m-primary:     #0089A2;
+$m-secondary:   #2EDCC0;
+$m-accent:      #EB6642;
+
+// colors
+$m-error:       #f43;
+$m-warning:     #fc3;
+$m-success:     #0e6;
+$m-info:        #09f;
+$m-cancel:      #ccc;
+
+$m-btn-colors:
+    (primary, $m-primary, lighten($m-primary, 10), #fff, #fff),
+    (secondary, $m-secondary, lighten($m-secondary, 10), #fff, #fff),
+    (accent, $m-accent, darken($m-accent, 10), #fff, #fff),
+    (error, $m-error, darken($m-error, 15), #fff, #fff),
+    (warning, $m-warning, darken($m-warning, 15), #fff, #fff),
+    (success, $m-success, darken($m-success, 10), #fff, #fff),
+    (info, $m-info, darken($m-info, 10), #fff, #fff),
+    (cancel, $m-cancel, darken($m-cancel, 10), #fff, #fff);

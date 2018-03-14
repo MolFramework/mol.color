@@ -4,3 +4,210 @@
  * MIT License
  * https://github.com/flkt-crnpio/m.colors
  */
+.btn-primary {
+  background: #0089A2;
+  border-color: #0089A2;
+  color: #fff;
+}
+
+.btn-primary:hover, .btn-primary:focus {
+  background: #00b4d5;
+  border-color: #00b4d5;
+  color: #fff;
+}
+
+.btn-primary-line {
+  background: transparent;
+  box-shadow: none;
+  border-color: #0089A2;
+  color: #0089A2;
+}
+
+.btn-primary-line:hover, .btn-primary-line:focus {
+  background: #00b4d5;
+  border-color: #00b4d5;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #2EDCC0;
+  border-color: #2EDCC0;
+  color: #fff;
+}
+
+.btn-secondary:hover, .btn-secondary:focus {
+  background: #5ae3cd;
+  border-color: #5ae3cd;
+  color: #fff;
+}
+
+.btn-secondary-line {
+  background: transparent;
+  box-shadow: none;
+  border-color: #2EDCC0;
+  color: #2EDCC0;
+}
+
+.btn-secondary-line:hover, .btn-secondary-line:focus {
+  background: #5ae3cd;
+  border-color: #5ae3cd;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn-accent {
+  background: #EB6642;
+  border-color: #EB6642;
+  color: #fff;
+}
+
+.btn-accent:hover, .btn-accent:focus {
+  background: #e24318;
+  border-color: #e24318;
+  color: #fff;
+}
+
+.btn-accent-line {
+  background: transparent;
+  box-shadow: none;
+  border-color: #EB6642;
+  color: #EB6642;
+}
+
+.btn-accent-line:hover, .btn-accent-line:focus {
+  background: #e24318;
+  border-color: #e24318;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn-error {
+  background: #f43;
+  border-color: #f43;
+  color: #fff;
+}
+
+.btn-error:hover, .btn-error:focus {
+  background: #e61300;
+  border-color: #e61300;
+  color: #fff;
+}
+
+.btn-error-line {
+  background: transparent;
+  box-shadow: none;
+  border-color: #f43;
+  color: #f43;
+}
+
+.btn-error-line:hover, .btn-error-line:focus {
+  background: #e61300;
+  border-color: #e61300;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn-warning {
+  background: #fc3;
+  border-color: #fc3;
+  color: #fff;
+}
+
+.btn-warning:hover, .btn-warning:focus {
+  background: #e6ac00;
+  border-color: #e6ac00;
+  color: #fff;
+}
+
+.btn-warning-line {
+  background: transparent;
+  box-shadow: none;
+  border-color: #fc3;
+  color: #fc3;
+}
+
+.btn-warning-line:hover, .btn-warning-line:focus {
+  background: #e6ac00;
+  border-color: #e6ac00;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn-success {
+  background: #0e6;
+  border-color: #0e6;
+  color: #fff;
+}
+
+.btn-success:hover, .btn-success:focus {
+  background: #00bb50;
+  border-color: #00bb50;
+  color: #fff;
+}
+
+.btn-success-line {
+  background: transparent;
+  box-shadow: none;
+  border-color: #0e6;
+  color: #0e6;
+}
+
+.btn-success-line:hover, .btn-success-line:focus {
+  background: #00bb50;
+  border-color: #00bb50;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn-info {
+  background: #09f;
+  border-color: #09f;
+  color: #fff;
+}
+
+.btn-info:hover, .btn-info:focus {
+  background: #007acc;
+  border-color: #007acc;
+  color: #fff;
+}
+
+.btn-info-line {
+  background: transparent;
+  box-shadow: none;
+  border-color: #09f;
+  color: #09f;
+}
+
+.btn-info-line:hover, .btn-info-line:focus {
+  background: #007acc;
+  border-color: #007acc;
+  box-shadow: none;
+  color: #fff;
+}
+
+.btn-cancel {
+  background: #ccc;
+  border-color: #ccc;
+  color: #fff;
+}
+
+.btn-cancel:hover, .btn-cancel:focus {
+  background: #b3b3b3;
+  border-color: #b3b3b3;
+  color: #fff;
+}
+
+.btn-cancel-line {
+  background: transparent;
+  box-shadow: none;
+  border-color: #ccc;
+  color: #ccc;
+}
+
+.btn-cancel-line:hover, .btn-cancel-line:focus {
+  background: #b3b3b3;
+  border-color: #b3b3b3;
+  box-shadow: none;
+  color: #fff;
+}
