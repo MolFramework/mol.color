@@ -1,7 +1,9 @@
 # Mol Colors #
 
 Administra los colores de fondo, texto y borde basado en una paleta de color.
-Este proyecto utiliza [mol.normalize](https://github.com/MolFramework/mol.normalize)
+__
+*Este proyecto utiliza [mol.normalize](https://github.com/MolFramework/mol.normalize)*
+
 
 ( ﾟ▽ﾟ)/ Hi! [@MolFramework](https://twitter.com/MolFramework)
 
