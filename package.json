@@ -1,38 +1,34 @@
 {
-  "name": "m.colors",
+  "name": "mol.colors",
   "version": "1.0.0",
-  "description": "color module for m project",
-  "main": "dev/index.html",
+  "description": "Color file for Mol Framework",
   "scripts": {
-    "watch": "gulp dev",
-    "build": "gulp dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/flkt-crnpio/m.colors.git"
+    "dist": "sass scss/colors.scss:dist/colors.min.css --style compressed",
+    "docs": "npm run scss | npm run start",
+    "start": "browser-sync start --server 'docs' --files 'docs'",
+    "scss": "sass --watch scss/colors.scss:docs/colors.css --style expanded"
   },
   "keywords": [
     "mol",
+    "mol-framework",
     "css",
-    "flkt-mol",
+    "sass",
+    "scss",
     "scss-module",
     "color",
     "palette"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MolFramework/mol.colors.git"
+  },
   "author": "flkt <flkt.crnpio@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flkt-crnpio/m.colors/issues"
+    "url": "https://github.com/MolFramework/mol.colors/issues"
   },
-  "homepage": "https://github.com/flkt-crnpio/m.colors#readme",
   "devDependencies": {
-    "browser-sync": "^2.18.13",
-    "gulp": "^3.9.1",
-    "gulp-cssnano": "^2.1.2",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
-    "m.grid": "git+https://github.com/flkt-crnpio/m.grid.git",
-    "m.normalize": "git+https://github.com/flkt-crnpio/m.normalize.git"
+    "browser-sync": "^2.26.3",
+    "mol.normalize": "git+https://github.com/MolFramework/mol.normalize.git"
   }
 }
