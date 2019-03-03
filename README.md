@@ -7,7 +7,7 @@ Este proyecto utiliza [mol.normalize](https://github.com/MolFramework/mol.normal
 
 
 ## Uso e instalación
-Para utilizar el grid en tu proyecto, puedes installarlo con [npm](https://www.npmjs.com/)
+Para utilizar la paleta de color en tu proyecto, puedes installarlo con [npm](https://www.npmjs.com/)
 ```sh
 npm install https://github.com/MolFramework/mol.colors.git
 ```
@@ -16,7 +16,7 @@ importa el archivo principal
 @import '~mol.colors/scss/_colors.scss';
 ```
 y crea un archivo que contenga las mismas variables que las que se encuentran en
-el archivo de `~mol.grid/scss/_vars.scss`
+el archivo de `~mol.colors/scss/_vars.scss`
 
 ó si no tienes tiempo, importa el archivo minificado en tu hoja de estilos principal
 ```sh
