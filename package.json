@@ -1,12 +1,12 @@
 {
-  "name": "mol.colors",
+  "name": "mol.color",
   "version": "1.0.0",
   "description": "Color file for Mol Framework",
   "scripts": {
-    "dist": "sass scss/colors.scss:dist/colors.min.css --style compressed",
+    "dist": "sass scss/color.scss:dist/color.min.css --style compressed",
     "docs": "npm run scss | npm run start",
     "start": "browser-sync start --server 'docs' --files 'docs'",
-    "scss": "sass --watch scss/colors.scss:docs/colors.css --style expanded"
+    "scss": "sass --watch scss/color.scss:docs/color.css --style expanded"
   },
   "keywords": [
     "mol",
@@ -20,12 +20,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MolFramework/mol.colors.git"
+    "url": "git+https://github.com/MolFramework/mol.color.git"
   },
   "author": "flkt <flkt.crnpio@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MolFramework/mol.colors/issues"
+    "url": "https://github.com/MolFramework/mol.color/issues"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
