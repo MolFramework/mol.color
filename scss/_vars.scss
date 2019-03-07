@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|PT+Serif');
+
 // normalize
 $m-background:  			#fff;
 $m-color:       			#222029;
-$m-primary:						#112;
-$m-secondary:   			#777;
-$m-accent:      			#00f;
+$m-primary:						#FA7062;
+$m-secondary:   			#FCA4B1;
+$m-accent:      			#16729A;
 
 $m-actn-color: 			  $m-primary;
 $m-actn-color-hover:  mix($m-primary, $m-accent, 80%);
@@ -30,4 +31,48 @@ $m-h-transform:  			normal;
 
 $m-transition:				all 0.3s cubic-bezier(0.465, 0.240, 0.370, 0.825);
 
-// colors
+// core and color
+$m-actn-border-color:       $m-primary;
+$m-actn-border-color-hover: mix($m-primary, $m-accent, 95%);
+$m-striped-odd:             rgba($m-color, .05);
+$m-striped-even:            rgba($m-color, .1);
+$m-block-hover:             rgba($m-secondary, .1);
+
+$m-note:                    mix(#aaa, $m-primary, 90%);
+
+$m-error:                   mix(#f00, $m-primary, 40%);
+$m-success:                 mix(#0f0, $m-primary, 50%);
+$m-warning:                 mix(#ff0, $m-primary, 40%);
+$m-error-hover:             mix(#f00, $m-primary, 50%);
+$m-success-hover:           mix(#0f0, $m-primary, 60%);
+$m-warning-hover:           mix(#ff0, $m-primary, 60%);
+
+$m-array-colors: //(nombre, fondo, fondo-hover, fuente, fuente-hover, borde, borde-hover)
+  (primary, $m-actn-color, $m-actn-color-hover, $m-actn-font, $m-actn-font-hover, $m-actn-border-color, $m-actn-border-color-hover),
+  (secondary, $m-secondary, mix($m-secondary, $m-accent, 80%), $m-background, $m-background, $m-secondary, mix($m-secondary, $m-accent, 75%)),
+  (accent, $m-accent, mix($m-accent, $m-primary, 90%), $m-background, $m-background, $m-accent, mix($m-accent, $m-primary, 85%)),
+  (note, $m-note, darken($m-note, 10), lighten($m-note, 40), lighten($m-note, 80), $m-note, darken($m-note, 15));
+
+$m-array-form-color-validations: //(nombre, color, color-hover)
+  (success, $m-success, $m-success-hover),
+  (warning, $m-warning, $m-warning-hover),
+  (error, $m-error, $m-error-hover);
+
+$m-container-border-color:  rgba($m-color,.1);
+
+$m-input-border-color:      rgba($m-color, .3);
+$m-input-border-color-hover:rgba($m-color, .5);
+
+$m-checkbox-color-active:   $m-primary;
+$m-checkbox-after-active:   $m-background;
+
+$m-switch-background-off:   rgba($m-color, .2);
+$m-switch-background-on:    $m-checkbox-color-active;
+$m-switch-color-off:        $m-background;
+$m-switch-color-on:         $m-background;
+
+// color
+$m-array-background-colors:
+  (primary, $m-primary),
+  (secondary, $m-secondary),
+  (accent, $m-accent);

@@ -1,0 +1,15 @@
+@each $name, $bg-color in $m-array-background-colors {
+	.bg-#{$name} {
+		background: $bg-color;
+	}
+	@for $i from 1 through 5 {
+		.bg-#{$name}-light-#{$i} {
+			background: mix($bg-color, $m-background, $i*17);
+			color: $m-color;
+		}
+		.bg-#{$name}-dark-#{$i} {
+			background: mix($m-color, $bg-color, $i*17);
+			color: $m-background;
+		}
+	}
+}
