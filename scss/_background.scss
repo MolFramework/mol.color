@@ -2,14 +2,16 @@
 	.bg-#{$name} {
 		background: $bg-color;
 	}
-	@for $i from 1 through 5 {
-		.bg-#{$name}-light-#{$i} {
-			background: mix($bg-color, $m-background, $i*17);
-			color: $m-color;
-		}
-		.bg-#{$name}-dark-#{$i} {
-			background: mix($m-color, $bg-color, $i*17);
-			color: $m-background;
+	@if $m-array-background-color-variations == true {
+		@for $i from 1 through 5 {
+			.bg-#{$name}-light-#{$i} {
+				background: mix($bg-color, $m-background, $i*17);
+				color: $m-color;
+			}
+			.bg-#{$name}-dark-#{$i} {
+				background: mix($m-color, $bg-color, $i*15);
+				color: $m-background;
+			}
 		}
 	}
 }

@@ -7,13 +7,13 @@
 	.border-#{$name} {
 		border-color: $border-color;
 	}
-	@if $m-array-border-colors-variations == true {
+	@if $m-array-border-color-variations == true {
 		@for $i from 1 through 5 {
 			.border-#{$name}-light-#{$i} {
 				border-color: mix($border-color, $m-background, $i*19);
 			}
 			.border-#{$name}-dark-#{$i} {
-				border-color: mix($m-color, $border-color, $i*15);
+				border-color: mix($m-color, $border-color, $i*17);
 			}
 		}
 	}

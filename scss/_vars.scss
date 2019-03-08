@@ -74,12 +74,13 @@ $m-switch-color-off:        $m-background;
 $m-switch-color-on:         $m-background;
 
 // color
+$m-array-background-color-variations: true;
 $m-array-background-colors:
   (primary,   $m-primary),
   (secondary, $m-secondary),
   (accent,    $m-accent);
 
-$m-array-border-colors-variations: true;
+$m-array-border-color-variations: true;
 $m-array-border-colors:
   (primary,   $m-primary),
   (secondary, $m-secondary),
