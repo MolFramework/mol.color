@@ -1,0 +1,45 @@
+[class^="line-"] {
+	position: relative;
+	&::after {
+		background-color: rgba($m-color, .77);
+		content: "";
+		position: absolute;
+		height: $m-underline-height;
+		width: $m-underline-width;
+		z-index: -1;
+	}
+}
+[class^="line-t"] {
+	&::after {
+		top: -#{$m-underline-height};
+		left: 0;
+	}
+}
+[class^="line-r"] {
+	&::after {
+		top: 45%;
+		right: -#{$m-underline-width * 1.1};
+	}
+}
+[class^="line-b"] {
+	&::after {
+		bottom: -#{$m-underline-height};
+		left: 0;
+	}
+}
+[class^="line-l"] {
+	&::after {
+		top: 45%;
+		left: -#{$m-underline-width * 1.1};
+	}
+}
+@each $name, $bg-color in $m-array-line-colors {
+	.line-t-#{$name},
+	.line-r-#{$name},
+	.line-b-#{$name},
+	.line-l-#{$name} {
+		&::after {
+			background-color: $bg-color;
+		}
+	}
+}

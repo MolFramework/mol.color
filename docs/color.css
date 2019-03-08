@@ -612,9 +612,10 @@ table {
   color: #fff;
 }
 
-[class^=border-] {
+[class^=border] {
   border-width: 2px;
   border-style: solid;
+  border-color: rgba(34, 32, 41, 0.07);
 }
 
 .border-primary {
@@ -747,6 +748,59 @@ table {
 
 .border-accent-dark-5 {
   border-color: #202c3a;
+}
+
+[class^=line-] {
+  position: relative;
+}
+[class^=line-]::after {
+  background-color: rgba(34, 32, 41, 0.77);
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 20px;
+  z-index: -1;
+}
+
+[class^=line-t]::after {
+  top: -4px;
+  left: 0;
+}
+
+[class^=line-r]::after {
+  top: 45%;
+  right: -22px;
+}
+
+[class^=line-b]::after {
+  bottom: -4px;
+  left: 0;
+}
+
+[class^=line-l]::after {
+  top: 45%;
+  left: -22px;
+}
+
+.line-t-primary::after,
+.line-r-primary::after,
+.line-b-primary::after,
+.line-l-primary::after {
+  background-color: #FA7062;
+}
+
+.line-t-secondary::after,
+.line-r-secondary::after,
+.line-b-secondary::after,
+.line-l-secondary::after {
+  background-color: #FCA4B1;
+}
+
+.line-t-accent::after,
+.line-r-accent::after,
+.line-b-accent::after,
+.line-l-accent::after {
+  background-color: #16729A;
 }
 
 .text-primary {
