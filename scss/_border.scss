@@ -1,6 +1,7 @@
-[class^="border-"] {
+[class^="border"] {
 	border-width: $m-container-border-width;
 	border-style: $m-container-border-style;
+	border-color: rgba($m-color, .07);
 }
 
 @each $name, $border-color in $m-array-border-colors {
