@@ -612,4 +612,103 @@ table {
   color: #fff;
 }
 
+.text-primary {
+  color: #FA7062;
+}
+
+.foreground-primary {
+  position: relative;
+  color: #FA7062;
+}
+.foreground-primary:after {
+  content: "";
+  background: #fee7e4;
+  position: absolute;
+  bottom: 0.55em;
+  top: -0.1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.highlight-primary {
+  position: relative;
+}
+.highlight-primary:after {
+  content: "";
+  background: #FA7062;
+  position: absolute;
+  bottom: 0.55em;
+  top: -0.1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.text-secondary {
+  color: #FCA4B1;
+}
+
+.foreground-secondary {
+  position: relative;
+  color: #FCA4B1;
+}
+.foreground-secondary:after {
+  content: "";
+  background: #fef0f2;
+  position: absolute;
+  bottom: 0.55em;
+  top: -0.1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.highlight-secondary {
+  position: relative;
+}
+.highlight-secondary:after {
+  content: "";
+  background: #FCA4B1;
+  position: absolute;
+  bottom: 0.55em;
+  top: -0.1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.text-accent {
+  color: #16729A;
+}
+
+.foreground-accent {
+  position: relative;
+  color: #16729A;
+}
+.foreground-accent:after {
+  content: "";
+  background: #d7e7ee;
+  position: absolute;
+  bottom: 0.55em;
+  top: -0.1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.highlight-accent {
+  position: relative;
+}
+.highlight-accent:after {
+  content: "";
+  background: #16729A;
+  position: absolute;
+  bottom: 0.55em;
+  top: -0.1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
 /*# sourceMappingURL=color.css.map */

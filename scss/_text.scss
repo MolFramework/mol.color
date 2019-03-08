@@ -1,0 +1,32 @@
+@each $name, $color in $m-array-text-colors {
+	.text-#{$name} {
+		color: $color;
+	}
+	.foreground-#{$name} {
+		position: relative;
+		color: $color;
+		&:after {
+			content: "";
+			background: mix($color, $m-background, 17);
+			position: absolute;
+			bottom: .55em;
+			top: -.1em;
+			left: 0;
+			right: 0;
+			z-index: -1;
+		}
+	}
+	.highlight-#{$name} {
+		position: relative;
+		&:after {
+			content: "";
+			background: $color;
+			position: absolute;
+			bottom: .55em;
+			top: -.1em;
+			left: 0;
+			right: 0;
+			z-index: -1;
+		}
+	}
+}

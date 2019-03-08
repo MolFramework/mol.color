@@ -48,15 +48,15 @@ $m-success-hover:           mix(#0f0, $m-primary, 60%);
 $m-warning-hover:           mix(#ff0, $m-primary, 60%);
 
 $m-array-colors: //(nombre, fondo, fondo-hover, fuente, fuente-hover, borde, borde-hover)
-  (primary, $m-actn-color, $m-actn-color-hover, $m-actn-font, $m-actn-font-hover, $m-actn-border-color, $m-actn-border-color-hover),
-  (secondary, $m-secondary, mix($m-secondary, $m-accent, 80%), $m-background, $m-background, $m-secondary, mix($m-secondary, $m-accent, 75%)),
-  (accent, $m-accent, mix($m-accent, $m-primary, 90%), $m-background, $m-background, $m-accent, mix($m-accent, $m-primary, 85%)),
-  (note, $m-note, darken($m-note, 10), lighten($m-note, 40), lighten($m-note, 80), $m-note, darken($m-note, 15));
+  (primary,   $m-actn-color,  $m-actn-color-hover,                $m-actn-font,         $m-actn-font-hover,   $m-actn-border-color, $m-actn-border-color-hover),
+  (secondary, $m-secondary,   mix($m-secondary, $m-accent, 80%),  $m-background,        $m-background,        $m-secondary,         mix($m-secondary, $m-accent, 75%)),
+  (accent,    $m-accent,      mix($m-accent, $m-primary, 90%),    $m-background,        $m-background,        $m-accent,            mix($m-accent, $m-primary, 85%)),
+  (note,      $m-note,        darken($m-note, 10),                lighten($m-note, 40), lighten($m-note, 80), $m-note,              darken($m-note, 15));
 
 $m-array-form-color-validations: //(nombre, color, color-hover)
   (success, $m-success, $m-success-hover),
   (warning, $m-warning, $m-warning-hover),
-  (error, $m-error, $m-error-hover);
+  (error,   $m-error,   $m-error-hover);
 
 $m-container-border-color:  rgba($m-color,.1);
 
@@ -73,6 +73,11 @@ $m-switch-color-on:         $m-background;
 
 // color
 $m-array-background-colors:
-  (primary, $m-primary),
+  (primary,   $m-primary),
   (secondary, $m-secondary),
-  (accent, $m-accent);
+  (accent,    $m-accent);
+
+$m-array-text-colors:
+  (primary,   $m-primary),
+  (secondary, $m-secondary),
+  (accent,    $m-accent);
