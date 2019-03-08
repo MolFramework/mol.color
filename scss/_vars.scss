@@ -58,6 +58,8 @@ $m-array-form-color-validations: //(nombre, color, color-hover)
   (warning, $m-warning, $m-warning-hover),
   (error,   $m-error,   $m-error-hover);
 
+$m-container-border-width:  2px;
+$m-container-border-style:  solid;
 $m-container-border-color:  rgba($m-color,.1);
 
 $m-input-border-color:      rgba($m-color, .3);
@@ -73,6 +75,12 @@ $m-switch-color-on:         $m-background;
 
 // color
 $m-array-background-colors:
+  (primary,   $m-primary),
+  (secondary, $m-secondary),
+  (accent,    $m-accent);
+
+$m-array-border-colors-variations: true;
+$m-array-border-colors:
   (primary,   $m-primary),
   (secondary, $m-secondary),
   (accent,    $m-accent);

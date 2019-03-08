@@ -612,6 +612,143 @@ table {
   color: #fff;
 }
 
+[class^=border-] {
+  border-width: 2px;
+  border-style: solid;
+}
+
+.border-primary {
+  border-color: #FA7062;
+}
+
+.border-primary-light-1 {
+  border-color: #fee4e1;
+}
+
+.border-primary-dark-1 {
+  border-color: #da6459;
+}
+
+.border-primary-light-2 {
+  border-color: #fdc9c3;
+}
+
+.border-primary-dark-2 {
+  border-color: #b95851;
+}
+
+.border-primary-light-3 {
+  border-color: #fcada6;
+}
+
+.border-primary-dark-3 {
+  border-color: #994c48;
+}
+
+.border-primary-light-4 {
+  border-color: #fb9288;
+}
+
+.border-primary-dark-4 {
+  border-color: #784040;
+}
+
+.border-primary-light-5 {
+  border-color: #fa776a;
+}
+
+.border-primary-dark-5 {
+  border-color: #583437;
+}
+
+.border-secondary {
+  border-color: #FCA4B1;
+}
+
+.border-secondary-light-1 {
+  border-color: #feeef0;
+}
+
+.border-secondary-dark-1 {
+  border-color: #db909d;
+}
+
+.border-secondary-light-2 {
+  border-color: #fedce1;
+}
+
+.border-secondary-dark-2 {
+  border-color: #bb7c88;
+}
+
+.border-secondary-light-3 {
+  border-color: #fdcbd3;
+}
+
+.border-secondary-dark-3 {
+  border-color: #9a6974;
+}
+
+.border-secondary-light-4 {
+  border-color: #fdbac4;
+}
+
+.border-secondary-dark-4 {
+  border-color: #79555f;
+}
+
+.border-secondary-light-5 {
+  border-color: #fca9b5;
+}
+
+.border-secondary-dark-5 {
+  border-color: #59414b;
+}
+
+.border-accent {
+  border-color: #16729A;
+}
+
+.border-accent-light-1 {
+  border-color: #d3e4ec;
+}
+
+.border-accent-dark-1 {
+  border-color: #186689;
+}
+
+.border-accent-light-2 {
+  border-color: #a6c9d9;
+}
+
+.border-accent-dark-2 {
+  border-color: #1a5978;
+}
+
+.border-accent-light-3 {
+  border-color: #7aafc5;
+}
+
+.border-accent-dark-3 {
+  border-color: #1b4d67;
+}
+
+.border-accent-light-4 {
+  border-color: #4e94b2;
+}
+
+.border-accent-dark-4 {
+  border-color: #1d4156;
+}
+
+.border-accent-light-5 {
+  border-color: #22799f;
+}
+
+.border-accent-dark-5 {
+  border-color: #1f3545;
+}
+
 .text-primary {
   color: #FA7062;
 }
