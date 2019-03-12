@@ -96,4 +96,13 @@ $m-array-line-colors:
 $m-array-text-colors:
   (primary,   $m-primary),
   (secondary, $m-secondary),
-  (accent,    $m-accent);
+  (accent,    $m-accent),
+  (background,$m-background);
+
+//mix-blend-mode: normal|multiply|screen|overlay|darken|lighten|color-dodge|color-burn|difference|exclusion|hue|saturation|color|luminosity;
+$m-array-img-blend:
+  (multiply, multiply),
+  (screen, screen),
+  (lighten, lighten),
+  (difference, difference),
+  (burn, color-burn);

@@ -1,0 +1,9 @@
+@each $name, $blend in $m-array-img-blend {
+	.blend-#{$name} {
+		mix-blend-mode: $blend;
+	}
+
+	.bg-blend-#{$name} {
+		background-blend-mode: $blend;
+	}
+}

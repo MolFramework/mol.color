@@ -902,4 +902,77 @@ table {
   z-index: -1;
 }
 
+.text-background {
+  color: #fff;
+}
+
+.foreground-background {
+  position: relative;
+  color: #fff;
+}
+.foreground-background:after {
+  content: "";
+  background: white;
+  position: absolute;
+  bottom: 0.55em;
+  top: -0.1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.highlight-background {
+  position: relative;
+}
+.highlight-background:after {
+  content: "";
+  background: #fff;
+  position: absolute;
+  bottom: 0.55em;
+  top: -0.1em;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.blend-multiply {
+  mix-blend-mode: multiply;
+}
+
+.bg-blend-multiply {
+  background-blend-mode: multiply;
+}
+
+.blend-screen {
+  mix-blend-mode: screen;
+}
+
+.bg-blend-screen {
+  background-blend-mode: screen;
+}
+
+.blend-lighten {
+  mix-blend-mode: lighten;
+}
+
+.bg-blend-lighten {
+  background-blend-mode: lighten;
+}
+
+.blend-difference {
+  mix-blend-mode: difference;
+}
+
+.bg-blend-difference {
+  background-blend-mode: difference;
+}
+
+.blend-burn {
+  mix-blend-mode: color-burn;
+}
+
+.bg-blend-burn {
+  background-blend-mode: color-burn;
+}
+
 /*# sourceMappingURL=color.css.map */

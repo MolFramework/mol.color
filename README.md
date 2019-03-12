@@ -51,7 +51,11 @@ mol.colors/
 │   └── index.html
 └── scss/
     ├── _background.scss
+    ├── _border.scss
     ├── _colors.scss
+    ├── _image.scss
+    ├── _line.scss
+    ├── _text.scss
     ├── _vars.scss
     └── colors.scss
 ```
@@ -60,3 +64,9 @@ mol.colors/
 ```text
 
 ```
+
+## Problemas conocidos
+
+ヾ( ￣O￣)ツ Los estilos de linea no funcionaran en elementos que no pueden tener :after elments como cualquier input.
+
+Σ(T□T) el blend mode para las clases de las imágenes no funciona en todos los navegadores [caniuse](https://caniuse.com/#feat=css-backgroundblendmode)

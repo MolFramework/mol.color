@@ -13,9 +13,17 @@
       column-count: 5;
       margin: 0 0 20px;
     }
-    .col-5 div {
-      padding: 40px;
+    .col-5 > div {
+      padding: 20px;
+      min-height: 70px;
       text-align: center;
+    }
+    .text-top {
+      display: block;
+      margin-top: -70px;
+      margin-bottom: 40px;
+      z-index: 10;
+      position: relative;
     }
   </style>
 </head>
@@ -290,6 +298,47 @@
       <p><span class="line-b-accent">line-b-accent</span></p>
       <p><span class="line-l-accent">line-l-accent</span></p>
     </div>
+    <br>
+    <div class="col-5">
+      <div class="bg-primary">
+        <img src="http://flkt.mx/bg.jpg" alt="img" width="100%" class="blend-multiply">
+        <span class="text-top text-background">.blend-multiply</span>
+      </div>
+      <div class="bg-primary">
+        <img src="http://flkt.mx/bg.jpg" alt="img" width="100%" class="blend-screen">
+        <span class="text-top">.blend-screen</span>
+      </div>
+      <div class="bg-primary">
+        <img src="http://flkt.mx/bg.jpg" alt="img" width="100%" class="blend-difference">
+        <span class="text-top text-background">.blend-difference</span>
+      </div>
+      <div class="bg-primary">
+        <img src="http://flkt.mx/bg.jpg" alt="img" width="100%" class="blend-burn">
+        <span class="text-top text-background">.blend-burn</span>
+      </div>
+      <div class="bg-primary">
+        <img src="http://flkt.mx/bg.jpg" alt="img" width="100%" class="blend-lighten">
+        <span class="text-top">.blend-lighten</span>
+      </div>
+    </div>
+    <div class="col-5">
+      <div class="bg-primary bg-blend-multiply text-background" style="background-image: url(http://flkt.mx/bg.jpg); background-size: cover;">
+        .bg-blend-multiply
+      </div>
+      <div class="bg-primary bg-blend-screen" style="background-image: url(http://flkt.mx/bg.jpg); background-size: cover;">
+        .bg-blend-screen
+      </div>
+      <div class="bg-primary bg-blend-difference text-background" style="background-image: url(http://flkt.mx/bg.jpg); background-size: cover;">
+        .bg-blend-difference
+      </div>
+      <div class="bg-primary bg-blend-burn text-background" style="background-image: url(http://flkt.mx/bg.jpg); background-size: cover;">
+        .bg-blend-burn
+      </div>
+      <div class="bg-primary bg-blend-lighten" style="background-image: url(http://flkt.mx/bg.jpg); background-size: cover;">
+        .bg-blend-lighten
+      </div>
+    </div>
+
   </div>
 </body>
 </html>
