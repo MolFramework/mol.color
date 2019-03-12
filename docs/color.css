@@ -618,6 +618,26 @@ table {
   border-color: rgba(34, 32, 41, 0.07);
 }
 
+.border-top {
+  border-width: 0;
+  border-top-width: 2px;
+}
+
+.border-bottom {
+  border-width: 0;
+  border-bottom-width: 2px;
+}
+
+.border-right {
+  border-width: 0;
+  border-right-width: 2px;
+}
+
+.border-left {
+  border-width: 0;
+  border-left-width: 2px;
+}
+
 .border-primary {
   border-color: #FA7062;
 }

@@ -4,6 +4,23 @@
 	border-color: rgba($m-color, .07);
 }
 
+.border-top {
+	border-width: 0;
+	border-top-width: $m-container-border-width;
+}
+.border-bottom {
+	border-width: 0;
+	border-bottom-width: $m-container-border-width;
+}
+.border-right {
+	border-width: 0;
+	border-right-width: $m-container-border-width;
+}
+.border-left {
+	border-width: 0;
+	border-left-width: $m-container-border-width;
+}
+
 @each $name, $border-color in $m-array-border-colors {
 	.border-#{$name} {
 		border-color: $border-color;

@@ -62,7 +62,37 @@ mol.colors/
 
 #### Variables para la paleta de color
 ```text
+$m-array-background-color-variations: true;
+$m-array-background-colors:
+  (primary,   $m-primary),
+  (secondary, $m-secondary),
+  (accent,    $m-accent);
 
+$m-array-border-color-variations: true;
+$m-array-border-colors:
+  (primary,   $m-primary),
+  (secondary, $m-secondary),
+  (accent,    $m-accent);
+
+$m-underline-height: 4px;
+$m-underline-width: 20px;
+$m-array-line-colors:
+  (primary,   $m-primary),
+  (secondary, $m-secondary),
+  (accent,    $m-accent);
+
+$m-array-text-colors:
+  (primary,   $m-primary),
+  (secondary, $m-secondary),
+  (accent,    $m-accent),
+  (background,$m-background);
+
+$m-array-img-blend:
+  (multiply, multiply),
+  (screen, screen),
+  (lighten, lighten),
+  (difference, difference),
+  (burn, color-burn);
 ```
 
 ## Problemas conocidos
