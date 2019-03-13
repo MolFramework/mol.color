@@ -305,6 +305,7 @@ select:hover {
 output {
   background: transparent;
   border-bottom: 1px solid rgba(34, 32, 41, 0.5);
+  cursor: text;
   display: inline-block;
   vertical-align: bottom;
 }
@@ -396,6 +397,15 @@ input[type=search]::-webkit-search-decoration {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+tbody tr,
+tfoot tr {
+  border-top: 1px solid rgba(34, 32, 41, 0.2);
+}
+
+th, td {
+  padding: 0.4em 0.8em;
 }
 
 .bussy,
