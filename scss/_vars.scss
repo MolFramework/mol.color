@@ -3,14 +3,13 @@
 // normalize
 $m-background:  			#fff;
 $m-color:       			#222029;
-$m-primary:						#FA7062;
-$m-secondary:   			#FCA4B1;
-$m-accent:      			#16729A;
+$m-primary:						#112;
 
 $m-actn-color: 			  $m-primary;
-$m-actn-color-hover:  mix($m-primary, $m-accent, 80%);
-$m-actn-font:         $m-background;
+$m-actn-color-hover:  mix($m-primary, $m-background, 80%);
+$m-actn-font:         $m-primary;
 $m-actn-font-hover:   $m-background;
+$m-actn-transition:   all .35s cubic-bezier(0.310, -0.105, 0.430, 1.590);
 
 $m-font-serif: 				'PT Serif', serif;
 $m-font-family: 			'Open Sans', sans-serif;
@@ -29,9 +28,11 @@ $m-h-weight: 					600;
 $m-h-style:  					normal;
 $m-h-transform:  			normal;
 
-$m-transition:				all 0.3s cubic-bezier(0.465, 0.240, 0.370, 0.825);
-
 // core and color
+$m-primary:                 #FA7062;
+$m-secondary:               #FCA4B1;
+$m-accent:                  #16729A;
+
 $m-container-border-width:  2px;
 $m-container-border-style:  solid;
 
