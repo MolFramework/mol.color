@@ -26,8 +26,8 @@ output, summary, a {
   cursor: pointer;
   touch-action: manipulation;
   -ms-touch-action: manipulation;
-  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.59);
   text-rendering: optimizeLegibility;
+  transition: all 0.35s cubic-bezier(0.31, -0.105, 0.43, 1.89);
 }
 button:active,
 input:active,
@@ -98,9 +98,9 @@ h6 {
 
 a {
   background-size: 100% 200%;
-  background-image: linear-gradient(0deg, #112 50%, transparent 50%);
+  background-image: linear-gradient(0deg, #FA7062 50%, transparent 50%);
   background-position: 0 -1px;
-  color: #112;
+  color: #FA7062;
   font-size: inherit;
   font-weight: normal;
   text-decoration: none;
@@ -290,25 +290,74 @@ output {
   margin: 0.2em 0;
 }
 
-input,
+[type=date],
+[type=datetime],
+[type=datetime-local],
+[type=email],
+[type=file],
+[type=month],
+[type=number],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=time],
+[type=url],
+[type=week],
 textarea,
 select {
-  background: transparent;
   border: 1px solid rgba(34, 32, 41, 0.3);
-  border-radius: 1px;
 }
-input.hover, input:focus, input:hover,
+[type=date].hover, [type=date]:focus, [type=date]:hover,
+[type=datetime].hover,
+[type=datetime]:focus,
+[type=datetime]:hover,
+[type=datetime-local].hover,
+[type=datetime-local]:focus,
+[type=datetime-local]:hover,
+[type=email].hover,
+[type=email]:focus,
+[type=email]:hover,
+[type=file].hover,
+[type=file]:focus,
+[type=file]:hover,
+[type=month].hover,
+[type=month]:focus,
+[type=month]:hover,
+[type=number].hover,
+[type=number]:focus,
+[type=number]:hover,
+[type=password].hover,
+[type=password]:focus,
+[type=password]:hover,
+[type=search].hover,
+[type=search]:focus,
+[type=search]:hover,
+[type=tel].hover,
+[type=tel]:focus,
+[type=tel]:hover,
+[type=text].hover,
+[type=text]:focus,
+[type=text]:hover,
+[type=time].hover,
+[type=time]:focus,
+[type=time]:hover,
+[type=url].hover,
+[type=url]:focus,
+[type=url]:hover,
+[type=week].hover,
+[type=week]:focus,
+[type=week]:hover,
 textarea.hover,
 textarea:focus,
 textarea:hover,
 select.hover,
 select:focus,
 select:hover {
-  border: 1px solid rgba(34, 32, 41, 0.7);
+  border-color: rgba(34, 32, 41, 0.7);
 }
 
 output {
-  background: transparent;
   border-bottom: 1px solid rgba(34, 32, 41, 0.5);
   cursor: text;
   display: inline-block;
@@ -338,15 +387,11 @@ button,
 input[type=button],
 input[type=reset],
 input[type=submit] {
-  appearance: auto;
-  -moz-appearance: button;
-  -webkit-appearance: button;
-  background-size: 200% 100%;
-  background-image: linear-gradient(90deg, #112 50%, transparent 50%);
-  background-position: 100% 0;
-  border: 1px solid #112;
-  font-weight: normal;
-  color: #112;
+  background-size: 100% 200%;
+  background-image: linear-gradient(0deg, #FA7062 50%, #fff 50%);
+  background-position: 0 100%;
+  border: 1px solid #FA7062;
+  color: #fff;
 }
 button.hover, button:focus, button:hover,
 input[type=button].hover,
@@ -359,8 +404,7 @@ input[type=submit].hover,
 input[type=submit]:focus,
 input[type=submit]:hover {
   background-position: 0 0;
-  border: 1px solid #41414e;
-  color: #fff;
+  color: #FA7062;
 }
 
 button::-moz-focus-inner,
