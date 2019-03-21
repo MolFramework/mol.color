@@ -21,13 +21,18 @@ $m-h-weight: 					600;
 $m-h-style:  					normal;
 $m-h-transform:  			normal;
 
-// core and color
-$m-primary:                 #FA7062;
-$m-secondary:               #FCA4B1;
-$m-accent:                  #16729A;
 
-$m-container-border-width:  2px;
+// core and color
+$m-secondary:               #009DCE;
+$m-accent:                  #7175CB;
+$m-note:                    mix(#aaa, $m-primary, 90%);
+$m-error:                   mix(#f10, $m-primary, 80%);
+$m-success:                 mix(#1e1, $m-primary, 70%);
+$m-warning:                 mix(#fa3, $m-primary, 95%);
+
+$m-container-border-width:  1px;
 $m-container-border-style:  solid;
+
 
 // color
 $m-array-background-color-variations: true;
