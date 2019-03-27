@@ -1,7 +1,7 @@
 {
   "name": "mol.color",
   "version": "1.0.0",
-  "description": "Color file for Mol Framework",
+  "description": "editable color palette module of mol project",
   "scripts": {
     "dist": "sass scss/color.scss:dist/color.min.css --style compressed",
     "docs": "npm run scss | npm run start",
@@ -10,7 +10,7 @@
   },
   "keywords": [
     "mol",
-    "mol-framework",
+    "mol-project",
     "css",
     "sass",
     "scss",
@@ -20,15 +20,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MolFramework/mol.color.git"
+    "url": "git+https://github.com/mol-project/mol.color.git"
   },
   "author": "flkt <flkt.crnpio@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MolFramework/mol.color/issues"
+    "url": "https://github.com/mol-project/mol.color/issues"
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "mol.normalize": "git+https://github.com/MolFramework/mol.normalize.git"
+    "mol.normalize": "git+https://github.com/mol-project/mol.normalize.git#v.2.0.1"
   }
 }
