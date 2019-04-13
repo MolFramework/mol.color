@@ -1,6 +1,6 @@
 {
   "name": "mol.color",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "editable color palette module of mol project",
   "scripts": {
     "dist": "sass scss/color.scss:dist/color.min.css --style compressed",
@@ -29,6 +29,6 @@
   },
   "devDependencies": {
     "browser-sync": "^2.26.3",
-    "mol.normalize": "git+https://github.com/mol-project/mol.normalize.git#v.2.0.1"
+    "mol.normalize": "git+https://github.com/mol-project/mol.normalize.git#v.2.0.3"
   }
 }

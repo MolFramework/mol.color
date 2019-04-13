@@ -61,29 +61,31 @@ mol.colors/
 ```text
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|PT+Serif');
 
-$m-font-serif:      'PT Serif', serif;
-$m-font-family:     'Open Sans', sans-serif;
-$m-font-size:       16px;
-$m-font-weight:     400;
-$m-letter-spacing:  normal;
-$m-line-height:     1.5em;
+$m-font-family: 			'Open Sans', sans-serif;
+$m-font-size:       	16px;
+$m-font-weight:     	400;
+$m-letter-spacing:  	normal;
+$m-line-height:     	1.5em;
 
-$m-code-family:     monospace;
+$m-code-family: 			monospace;
 
-$m-h-family:        'Josefin Sans', sans-serif;
-$m-h-size:          23px;
-$m-h-height:        1em;
-$m-h-spacing:       normal;
-$m-h-weight:        600;
-$m-h-style:         normal;
-$m-h-transform:     normal;
+$m-em-family: 				'PT Serif', serif;
 
-$m-background:  #fff;
-$m-color:       #222029;
+$m-h-family: 					'Josefin Sans', sans-serif;
+$m-h-size:   					23px;
+$m-h-height: 					1em;
+$m-h-spacing:					normal;
+$m-h-weight: 					600;
+$m-h-style:  					normal;
+$m-h-transform:  			normal;
 
-$m-primary:     #32bdc6;
-$m-secondary:   #009DCE;
-$m-accent:      #7175CB;
+$m-background:  #0a0838;
+$m-color:       #ffb9b9;
+
+$m-primary:     #ff5252;
+
+$m-secondary:   #f69c9b;
+$m-accent:      #5252ff;
 
 $m-note:        mix(#aaa, $m-primary, 90%);
 $m-error:       mix(#f10, $m-primary, 80%);

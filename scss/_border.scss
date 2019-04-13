@@ -1,7 +1,7 @@
 [class^="border"] {
 	border-width: $m-container-border-width;
 	border-style: $m-container-border-style;
-	border-color: rgba($m-color, .07);
+	border-color: rgba($m-color, .2);
 }
 
 .border-top {
@@ -27,11 +27,11 @@
 	}
 	@if $m-array-border-color-variations == true {
 		@for $i from 1 through 5 {
-			.border-#{$name}-light-#{$i} {
-				border-color: mix($border-color, $m-background, $i*19);
+			.border-#{$name}-to-bg-#{$i} {
+				border-color: mix($m-background, $border-color, $i*15);
 			}
-			.border-#{$name}-dark-#{$i} {
-				border-color: mix($m-color, $border-color, $i*17);
+			.border-#{$name}-to-txt-#{$i} {
+				border-color: mix($m-color, $border-color, $i*15);
 			}
 		}
 	}

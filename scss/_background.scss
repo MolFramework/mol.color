@@ -4,11 +4,11 @@
 	}
 	@if $m-array-background-color-variations == true {
 		@for $i from 1 through 5 {
-			.bg-#{$name}-light-#{$i} {
-				background: mix($bg-color, $m-background, $i*17);
+			.bg-#{$name}-to-bg-#{$i} {
+				background: mix($m-background, $bg-color, $i*17);
 				color: $m-color;
 			}
-			.bg-#{$name}-dark-#{$i} {
+			.bg-#{$name}-to-txt-#{$i} {
 				background: mix($m-color, $bg-color, $i*15);
 				color: $m-background;
 			}
